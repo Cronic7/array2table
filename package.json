@@ -1,0 +1,22 @@
+{
+  "name": "array2table",
+  "version": "1.1.1",
+  "description": "Takes and 2d array data and returns it in table format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cronic7/array2table.git"
+  },
+  "keywords": [
+    "array2table"
+  ],
+  "author": "Cronic7",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cronic7/array2table/issues"
+  },
+  "homepage": "https://github.com/Cronic7/array2table#readme"
+}
