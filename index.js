@@ -1,5 +1,17 @@
 
 function buildTable(data) {
+  if(!Array.isArray(data)){
+    return 'Invalid input. Please provide an array.';
+  }
+  if (data.length === 0) {
+    return 'Error: The array is empty. Please provide data.';
+  }
+
+  for (let i = 0; i < data.length; i++) {
+    if (!Array.isArray(data[i])) {
+      return `Error: Invalid input. Element at index ${i} is not an array.`;
+    }
+  }
   const lines = [];
 
   // Generate the header line
@@ -27,6 +39,6 @@ function createTableSeparator(rowData) {
 function padRight(str, length) {
   return (str + ' '.repeat(length)).slice(0, length);
 }
- 
+
 
 module.exports =buildTable
