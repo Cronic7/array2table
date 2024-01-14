@@ -1,6 +1,6 @@
 {
   "name": "array2table",
-  "version": "1.1.1",
+  "version": "1.2.1",
   "description": "Takes and 2d array data and returns it in table format",
   "main": "index.js",
   "scripts": {
